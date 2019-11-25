@@ -1,0 +1,111 @@
+@media all and (max-width: 500px){
+    #menu {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    #barre {
+        background-color: black;
+        border: 1px solid white;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        
+        }
+    
+    .liens {
+    color: #CCCCCC;
+    font-size: 1.5vw;
+    }
+    #barre a:hover 
+    {
+       color: white;
+       background:black;
+       
+    }
+    #barre a:link, #barre a:visited 
+    {
+    display: flex;
+    flex-direction: row;
+    text-decoration:none;
+    font:bold, Georgia;
+    text-transform:uppercase;
+    
+    }
+#contentTop {
+    font-family: Georgia;
+    font-size: 1.2vw;
+    color: black;
+    background-color: white;
+    margin-top: 5vh;
+    margin-right: 15vw;
+    margin-left: 15vw;
+    margin-bottom: 5vh;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+    #header {
+        width: 100%;
+        height: 100px;
+        position: relative;
+        background-repeat: no-repeat;
+        background-image: url(../img/header_500px.jpg);
+        background-size: 100% 100%;
+        background-position-x: right;
+    }
+    #title {
+        padding-left: 9%;
+        padding-top: 12%;
+        
+    }
+    #contentTop {
+        font-family: Georgia;
+        font-size: 4vw;
+        color: black;
+        background-color: white;
+        margin-top: 5vh;
+        margin-right: 0vw;
+        margin-left: 0vw;
+        margin-bottom: 5vh;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        padding-right: 2vw;
+        padding-left: 2vw;
+    }
+    #blockMenu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5vh;
+    }
+    .titleH2 {
+        font-size: 4vw;
+        text-align: center;
+        }
+    .blocks {
+        background-color: white;
+        color: black;
+        height: auto;
+        width: 90vw;
+        font-family: Georgia;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        margin-bottom: 5vh;
+        text-align: center;
+    }
+    .images {
+        width: 80vw;
+        height: auto;
+        
+    
+    
+    }
+    .desc {
+        font-size: 3vw;
+        
+    }
+}
